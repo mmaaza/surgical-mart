@@ -1,13 +1,13 @@
 <VirtualHost *:443>
-    ServerName dentalkartnepal.com
-    ServerAlias www.dentalkartnepal.com
+    ServerName surgicalmartnepal.com
+    ServerAlias www.surgicalmartnepal.com
 
     DocumentRoot /var/www/medical-bazzar/dist
 
     # SSL Configuration
     SSLEngine on
-    SSLCertificateFile /etc/letsencrypt/live/dentalkartnepal.com/fullchain.pem
-    SSLCertificateKeyFile /etc/letsencrypt/live/dentalkartnepal.com/privkey.pem
+    SSLCertificateFile /etc/letsencrypt/live/surgicalmartnepal.com/fullchain.pem
+    SSLCertificateKeyFile /etc/letsencrypt/live/surgicalmartnepal.com/privkey.pem
 
     # API Proxy Configuration - FIXED to match your backend port and API structure
     ProxyPass /api http://localhost:3001/api
@@ -46,12 +46,12 @@
 </VirtualHost>
 
 <VirtualHost *:80>
-    ServerName dentalkartnepal.com
-    ServerAlias www.dentalkartnepal.com
+    ServerName surgicalmartnepal.com
+    ServerAlias www.surgicalmartnepal.com
     
     # Redirect all HTTP traffic to HTTPS
     RewriteEngine On
-    RewriteRule ^(.*)$ https://dentalkartnepal.com$1 [R=301,L]
+    RewriteRule ^(.*)$ https://surgicalmartnepal.com$1 [R=301,L]
     
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
