@@ -25,11 +25,11 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <img 
                 src="/uploads/logo-main.png" 
-                alt="Dental Kart Nepal" 
+                alt="Surgical Mart Nepal" 
                 className="h-10 w-auto object-contain brightness-0 invert mr-3"
               />
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-primary-400 leading-tight">Dental Kart</span>
+                <span className="text-lg font-bold text-primary-400 leading-tight">Surgical Mart</span>
                 <span className="text-primary-300/80 text-xs leading-tight">Nepal</span>
               </div>
             </div>

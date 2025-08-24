@@ -1,6 +1,6 @@
 # Admin Dashboard Design System
 
-This document outlines the design patterns and components specific to the admin dashboard interface of Dental Kart Nepal. It extends the main design system while providing specialized components for administrative interfaces.
+This document outlines the design patterns and components specific to the admin dashboard interface of Surgical Mart Nepal. It extends the main design system while providing specialized components for administrative interfaces.
 
 ## Layout Structure
 

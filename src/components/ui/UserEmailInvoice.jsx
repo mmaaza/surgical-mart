@@ -274,7 +274,7 @@ const UserEmailInvoice = ({ order }) => {
           <div style={{ display: 'flex', alignItems: 'center', flex: '1', minWidth: '200px' }}>
             <div style={{ textAlign: 'left' }}>
               <div style={{ fontSize: '28px', fontWeight: 'bold', color: '#1f2937', marginBottom: '4px' }}>
-                Dental Kart
+                Surgical Mart
               </div>
               <div style={{ fontSize: '14px', color: '#f97316', fontWeight: '600' }}>
                 Nepal

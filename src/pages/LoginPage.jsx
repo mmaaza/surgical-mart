@@ -107,7 +107,7 @@ const LoginPage = () => {
       <div className="max-w-md w-full mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-mobile-h1 md:text-3xl lg:text-4xl font-bold font-heading text-gray-900">Welcome Back</h1>
-          <p className="mt-3 text-gray-600 text-sm md:text-base">Sign in to access your Dental Kart Nepal account</p>
+          <p className="mt-3 text-gray-600 text-sm md:text-base">Sign in to access your Surgical Mart Nepal account</p>
         </div>
         
         <div className="bg-white py-8 px-4 shadow-mobile rounded-lg sm:px-10">

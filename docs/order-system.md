@@ -1,6 +1,6 @@
-# Order Processing System - DK Nepal E-commerce
+# Order Processing System - SM Nepal E-commerce
 
-This document provides an overview of the order processing system for DK Nepal e-commerce platform.
+This document provides an overview of the order processing system for SM Nepal e-commerce platform.
 
 ## Features
 

@@ -95,7 +95,7 @@ const VendorLayout = () => {
         {/* Logo */}
         <div className="h-16 flex items-center justify-between px-4 bg-primary-500">
           <Link to="/vendor/dashboard" className="text-white text-lg font-bold">
-            DK Nepal Vendor
+            SM Nepal Vendor
           </Link>
           <button
             onClick={() => setIsSidebarOpen(false)}

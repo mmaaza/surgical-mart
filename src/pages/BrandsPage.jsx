@@ -257,7 +257,7 @@ const BrandsContent = () => {
           <h2 className="text-xl md:text-2xl font-bold mb-4">Medical Brands in Nepal</h2>
           <div className="text-sm md:text-base text-gray-700 space-y-4">
             <p>
-              Dental Kart Nepal partners with leading international and local medical brands to provide healthcare 
+              Surgical Mart Nepal partners with leading international and local medical brands to provide healthcare 
               professionals and facilities with high-quality medical supplies and equipment. Our carefully curated selection 
               represents the best in medical technology, ensuring reliability and effectiveness for all your healthcare needs.
             </p>
@@ -267,7 +267,7 @@ const BrandsContent = () => {
               trusted brands that healthcare professionals rely on daily.
             </p>
             <p>
-              All products available through Dental Kart Nepal are authentic and sourced directly from authorized 
+              All products available through Surgical Mart Nepal are authentic and sourced directly from authorized 
               distributors, ensuring you receive genuine products backed by manufacturer warranties and support.
             </p>
           </div>

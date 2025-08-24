@@ -609,7 +609,7 @@ const HomePageContent = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-2xl xs:text-3xl sm:text-4xl font-heading font-bold text-gray-900 mb-4">
-                Why Choose DK Nepal?
+                Why Choose SM Nepal?
               </h2>
               <p className="text-base xs:text-lg text-gray-600 max-w-2xl mx-auto">
                 Your trusted partner for premium medical equipment and supplies

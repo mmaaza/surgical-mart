@@ -1,6 +1,6 @@
-# Dental Kart Nepal API v2 Documentation Website
+# Surgical Mart Nepal API v2 Documentation Website
 
-A modern, responsive documentation website for the DK Nepal API v2, built with HTML, CSS, and JavaScript.
+A modern, responsive documentation website for the SM Nepal API v2, built with HTML, CSS, and JavaScript.
 
 ## 🚀 Features
 
@@ -67,7 +67,7 @@ Example page structure:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title - DK Nepal API v2</title>
+    <title>Page Title - SM Nepal API v2</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/prism.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -258,7 +258,7 @@ The documentation uses Font Awesome 6.0.0. Add new icons by:
 
 ## 📄 License
 
-This documentation website is part of the Dental Kart Nepal project.
+This documentation website is part of the Surgical Mart Nepal project.
 
 ## 🆘 Support
 

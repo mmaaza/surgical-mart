@@ -1,17 +1,17 @@
-# Dental Kart Nepal Platform Requirements
+# Surgical Mart Nepal Platform Requirements
 
 ## Overview
-Dental Kart Nepal is a multivendor medical supply platform where all products appear under the Dental Kart Nepal brand to customers. The platform connects vendors with customers while maintaining brand consistency and centralized management.
+Surgical Mart Nepal is a multivendor medical supply platform where all products appear under the Surgical Mart Nepal brand to customers. The platform connects vendors with customers while maintaining brand consistency and centralized management.
 
 ## Vendor Management
-- Vendors remain anonymous to customers (clients see only Dental Kart Nepal branding)
+- Vendors remain anonymous to customers (clients see only Surgical Mart Nepal branding)
 - Vendor accounts created and managed by admin
 - Vendor products added by admin
 - Vendor details hidden from public view
 
 ## Order Processing
 - When orders are placed:
-  - Vendors receive invoice from Dental Kart Nepal (without pricing details)
+  - Vendors receive invoice from Surgical Mart Nepal (without pricing details)
   - Invoices automatically sent via email to vendors
   - Vendors receive SMS notifications for new orders
   - Customers receive both SMS and email confirmations
@@ -21,7 +21,7 @@ Dental Kart Nepal is a multivendor medical supply platform where all products ap
   - Product name
   - Product brand
   - Product quantity
-  - Vendor name and Dental Kart Nepal branding at the top
+  - Vendor name and Surgical Mart Nepal branding at the top
 
 ## Admin Capabilities
 - Super admin can:
@@ -44,7 +44,7 @@ Dental Kart Nepal is a multivendor medical supply platform where all products ap
 
 ## Customer Experience
 - Checkout process completed in 3 steps
-- Products displayed under Dental Kart Nepal brand only
+- Products displayed under Surgical Mart Nepal brand only
 
 ### Interactive Features
 - "Chat with Us" functionality

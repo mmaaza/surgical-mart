@@ -243,7 +243,7 @@ const AllCategoriesContent = () => {
           </h2>
           <div className="text-sm md:text-base text-admin-slate-800 space-y-4">
             <p>
-              Dental Kart Nepal offers a comprehensive range of main medical
+              Surgical Mart Nepal offers a comprehensive range of main medical
               equipment categories to meet the diverse needs of healthcare
               professionals and facilities across Nepal. Our extensive catalog
               is organized into intuitive main categories to help you quickly find

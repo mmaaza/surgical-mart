@@ -280,7 +280,7 @@ const AdminLayout = () => {
             <Link to="/admin" className="flex items-center gap-2">
               <img 
                 src="/uploads/logo-main.png" 
-                alt="Dental Kart Nepal" 
+                alt="Surgical Mart Nepal" 
                 className="h-8 w-auto object-contain brightness-0 invert"
               />
               <span className="text-lg font-bold">Admin</span>
@@ -358,7 +358,7 @@ const AdminLayout = () => {
                 </button>
                 <div className="ml-4 lg:ml-0">
                   <h2 className="text-lg font-medium text-admin-slate-900 dark:text-admin-slate-100 hidden md:block">
-                    Welcome, Admin DK Nepal
+                    Welcome, Admin SM Nepal
                   </h2>
                 </div>
               </div>

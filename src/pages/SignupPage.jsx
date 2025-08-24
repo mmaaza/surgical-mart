@@ -86,7 +86,7 @@ const SignupPage = () => {
               Create an Account
             </h1>
             <p className="mt-2 text-gray-600 text-sm">
-              Join Dental Kart Nepal and get access to quality medical supplies
+              Join Surgical Mart Nepal and get access to quality medical supplies
             </p>
           </div>
 
@@ -235,12 +235,12 @@ const SignupPage = () => {
             <div className="mb-6">
               <img 
                 src="/uploads/logo-main.png" 
-                alt="Dental Kart Nepal Logo" 
+                alt="Surgical Mart Nepal Logo" 
                 className="h-32 mx-auto mb-4"
               />
             </div>
             <h2 className="text-2xl font-bold mb-3">
-              Dental Kart Nepal
+              Surgical Mart Nepal
             </h2>
             <p className="text-base text-primary-100 leading-relaxed">
               Your trusted source for quality medical supplies and equipment.

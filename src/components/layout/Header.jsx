@@ -225,12 +225,12 @@ const Header = () => {
           <Link to="/" className="flex items-center flex-shrink-0">
             <img 
               src="/uploads/logo-main.png" 
-              alt="Dental Kart Nepal" 
+              alt="Surgical Mart Nepal" 
               className="h-10 md:h-12 w-auto object-contain"
             />
             {/* Desktop Text - Hidden on mobile */}
             <div className="hidden md:flex flex-col ml-2">
-              <span className="text-white font-semibold text-lg leading-tight">Dental Kart</span>
+              <span className="text-white font-semibold text-lg leading-tight">Surgical Mart</span>
               <span className="text-white/80 text-xs leading-tight">Nepal</span>
             </div>
           </Link>

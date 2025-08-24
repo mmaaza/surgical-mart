@@ -231,7 +231,7 @@ const InvoicePrintPage = ({ order }) => {
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <img 
               src="/uploads/logo-orange.png" 
-              alt="Dental Kart Logo" 
+              alt="Surgical Mart Logo" 
               style={{ 
                 height: '50px', 
                 width: '50px',
@@ -244,7 +244,7 @@ const InvoicePrintPage = ({ order }) => {
             />
             <div style={{ textAlign: 'left' }}>
               <div style={{ fontSize: '28px', fontWeight: 'bold', color: '#1f2937', marginBottom: '4px' }}>
-                Dental Kart
+                Surgical Mart
               </div>
               <div style={{ fontSize: '14px', color: '#f97316', fontWeight: '600' }}>
                 Nepal

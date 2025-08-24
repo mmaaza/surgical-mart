@@ -1,4 +1,4 @@
-# Dental Kart Nepal - API v2 Documentation
+# Surgical Mart Nepal - API v2 Documentation
 
 > **Version**: 2.0  
 > **Last Updated**: December 2024  

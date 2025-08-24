@@ -127,7 +127,7 @@ const VendorLoginPage = () => {
         <p className="mt-2 text-center text-sm text-gray-600">
           {adminLoginMode 
             ? 'Access vendor dashboard with admin privileges' 
-            : 'Access your Dental Kart Nepal vendor dashboard'
+            : 'Access your Surgical Mart Nepal vendor dashboard'
           }
         </p>
         {adminLoginMode && (
@@ -257,7 +257,7 @@ const VendorLoginPage = () => {
 
             <div className="mt-6 text-center">
               <p className="text-sm text-gray-600">
-                Contact Dental Kart Nepal support at{' '}
+                Contact Surgical Mart Nepal support at{' '}
                 <a href="mailto:support@medicalbazzar.com" className="font-medium text-primary-600 hover:text-primary-500">
                   support@medicalbazzar.com
                 </a>

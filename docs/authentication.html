@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authentication - DK Nepal API v2</title>
+    <title>Authentication - SM Nepal API v2</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/prism.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
             <div class="sidebar-header">
                 <div class="logo">
                     <i class="fas fa-heartbeat"></i>
-                    <span>DK Nepal API</span>
+                    <span>SM Nepal API</span>
                 </div>
                 <div class="version">v2.0</div>
             </div>
@@ -77,13 +77,13 @@
         <main class="main-content">
             <header class="content-header">
                 <h1>🔐 Authentication</h1>
-                <p class="subtitle">Learn how to authenticate with the DK Nepal API using JWT tokens</p>
+                <p class="subtitle">Learn how to authenticate with the SM Nepal API using JWT tokens</p>
             </header>
 
             <div class="content-body">
                 <section class="auth-overview">
                     <h2>Overview</h2>
-                    <p>The DK Nepal API uses JWT (JSON Web Tokens) for authentication. All protected endpoints require a valid Bearer token in the Authorization header.</p>
+                    <p>The SM Nepal API uses JWT (JSON Web Tokens) for authentication. All protected endpoints require a valid Bearer token in the Authorization header.</p>
                     
                     <div class="info-box">
                         <h3>🔑 Key Points</h3>
@@ -260,7 +260,7 @@ curl -X GET "http://localhost:5000/api/auth/me" \
 
                         <h4>Production (HTTPS)</h4>
                         <pre><code class="language-bash"># Login to get token
-curl -X POST "https://dentalkartnepal.com/api/auth/login" \
+curl -X POST "https://surgicalmartnepal.com/api/auth/login" \
   -H "Content-Type: application/json" \
   -d '{
     "email": "user@example.com",
@@ -268,7 +268,7 @@ curl -X POST "https://dentalkartnepal.com/api/auth/login" \
   }'
 
 # Use token in authenticated requests
-curl -X GET "https://dentalkartnepal.com/api/auth/me" \
+curl -X GET "https://surgicalmartnepal.com/api/auth/me" \
   -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." \
   -H "Content-Type: application/json"</code></pre>
 
@@ -277,7 +277,7 @@ curl -X GET "https://dentalkartnepal.com/api/auth/me" \
                             <h4>Step 1: Setup Environment</h4>
                             <ul>
                                 <li>Create a new environment in Postman</li>
-                                <li>Add variable <code>baseUrl</code> with value <code>http://localhost:5000/api</code> (dev) or <code>https://dentalkartnepal.com/api</code> (prod)</li>
+                                <li>Add variable <code>baseUrl</code> with value <code>http://localhost:5000/api</code> (dev) or <code>https://surgicalmartnepal.com/api</code> (prod)</li>
                                 <li>Add variable <code>authToken</code> (leave empty initially)</li>
                             </ul>
 
@@ -314,7 +314,7 @@ if (pm.response.code === 200) {
                             <p>You can create a Postman collection with all endpoints:</p>
                             <pre><code class="language-json">{
   "info": {
-    "name": "DK Nepal API v2",
+    "name": "SM Nepal API v2",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "auth": {
@@ -343,7 +343,7 @@ localStorage.setItem('authToken', token);
 
 // Use token in requests (both HTTP and HTTPS)
 const baseUrl = process.env.NODE_ENV === 'production' 
-  ? 'https://dentalkartnepal.com/api' 
+  ? 'https://surgicalmartnepal.com/api' 
   : 'http://localhost:5000/api';
 
 const response = await fetch(`${baseUrl}/auth/me`, {
@@ -362,7 +362,7 @@ const data = await response.json();</code></pre>
 // Configure base URL
 const api = axios.create({
   baseURL: process.env.NODE_ENV === 'production' 
-    ? 'https://dentalkartnepal.com/api' 
+    ? 'https://surgicalmartnepal.com/api' 
     : 'http://localhost:5000/api'
 });
 
@@ -381,7 +381,7 @@ await AsyncStorage.setItem('authToken', token);
 // Configure API URL
 const API_BASE = __DEV__ 
   ? 'http://10.0.2.2:5000/api'  // Android emulator
-  : 'https://dentalkartnepal.com/api';
+  : 'https://surgicalmartnepal.com/api';
 
 // Use token in requests
 const response = await fetch(`${API_BASE}/auth/me`, {

@@ -1,6 +1,6 @@
-# Dental Kart Nepal - API Documentation
+# Surgical Mart Nepal - API Documentation
 
-This documentation provides details about the REST APIs available for the Dental Kart Nepal platform. These APIs can be used to build mobile applications or any other client applications.
+This documentation provides details about the REST APIs available for the Surgical Mart Nepal platform. These APIs can be used to build mobile applications or any other client applications.
 
 Base URL: `http://localhost:5000/api` (Development)
 

@@ -1,4 +1,4 @@
-// Main JavaScript for DK Nepal API Documentation
+// Main JavaScript for SM Nepal API Documentation
 
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle

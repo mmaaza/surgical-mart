@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the implementation of email functionality for order confirmations in the Dental Kart Nepal application.
+This document describes the implementation of email functionality for order confirmations in the Surgical Mart Nepal application.
 
 ## Features Implemented
 
@@ -26,7 +26,7 @@ Features:
 - HTML email template with embedded CSS for consistent styling
 - Responsive design with mobile-friendly layout
 - Error handling and logging
-- Professional branding with Dental Kart Nepal logo
+- Professional branding with Surgical Mart Nepal logo
 
 ### 3. Order Controller Integration
 
@@ -92,7 +92,7 @@ Make sure these environment variables are set in your `.env` file:
 ```env
 BREVO_API_KEY=your_brevo_api_key
 EMAIL_FROM=your_sender_email
-EMAIL_FROM_NAME=Dental Kart Nepal
+EMAIL_FROM_NAME=Surgical Mart Nepal
 CLIENT_URL=your_frontend_url
 ```
 

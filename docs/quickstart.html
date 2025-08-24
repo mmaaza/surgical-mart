@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quick Start Guide - DK Nepal API v2</title>
+    <title>Quick Start Guide - SM Nepal API v2</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/prism.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
             <div class="sidebar-header">
                 <div class="logo">
                     <i class="fas fa-heartbeat"></i>
-                    <span>DK Nepal API</span>
+                    <span>SM Nepal API</span>
                 </div>
                 <div class="version">v2.0</div>
             </div>
@@ -77,19 +77,19 @@
         <main class="main-content">
             <header class="content-header">
                 <h1>🚀 Quick Start Guide</h1>
-                <p class="subtitle">Get up and running with the DK Nepal API in minutes</p>
+                <p class="subtitle">Get up and running with the SM Nepal API in minutes</p>
             </header>
 
             <div class="content-body">
                 <section class="environment-setup">
                     <h2>Environment Setup</h2>
-                    <p>The DK Nepal API supports both development and production environments with different base URLs.</p>
+                    <p>The SM Nepal API supports both development and production environments with different base URLs.</p>
                     
                     <div class="info-box">
                         <h3>🌐 Environment URLs</h3>
                         <ul>
                             <li><strong>Development:</strong> <code>http://localhost:5000/api</code></li>
-                            <li><strong>Production:</strong> <code>https://dentalkartnepal.com/api</code></li>
+                            <li><strong>Production:</strong> <code>https://surgicalmartnepal.com/api</code></li>
                         </ul>
                     </div>
                 </section>
@@ -149,7 +149,7 @@
                         <pre><code class="language-bash">curl -X GET "http://localhost:5000/api/products?limit=5"</code></pre>
                         
                         <h4>Production</h4>
-                        <pre><code class="language-bash">curl -X GET "https://dentalkartnepal.com/api/products?limit=5"</code></pre>
+                        <pre><code class="language-bash">curl -X GET "https://surgicalmartnepal.com/api/products?limit=5"</code></pre>
                     </div>
 
                     <div class="example-card">
@@ -214,7 +214,7 @@
                         <p>Create a new collection and add this structure:</p>
                         <pre><code class="language-json">{
   "info": {
-    "name": "DK Nepal API Quick Start",
+    "name": "SM Nepal API Quick Start",
     "description": "Quick start collection for testing"
   },
   "variable": [
@@ -296,7 +296,7 @@
 class MBNepalAPI {
   constructor(environment = 'development') {
     this.baseUrl = environment === 'production' 
-      ? 'https://dentalkartnepal.com/api'
+      ? 'https://surgicalmartnepal.com/api'
       : 'http://localhost:5000/api';
     this.token = localStorage.getItem('mbnepal_token');
   }
