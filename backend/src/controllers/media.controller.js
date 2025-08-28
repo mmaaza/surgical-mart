@@ -14,7 +14,7 @@ const RESIZE_PRESETS = {
 // Ensure upload directory exists and has correct permissions
 const ensureUploadDirectory = () => {
   // const uploadDir = path.join(process.cwd(), '../public/uploads');
-  const uploadDir = path.join('surgicalmartnepalcal-bazzar/public/uploads');
+  const uploadDir = path.join('surgicalmartnepal/public/uploads');
   if (!fs.existsSync(uploadDir)) {
     fs.mkdirSync(uploadDir, { recursive: true, mode: 0o755 });
   } else {
