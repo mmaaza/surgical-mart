@@ -20,8 +20,8 @@
     </Location>
     
     # Uploads directory - make sure path is correct
-    Alias /uploads /var/www/medical-bazzar/public/uploads
-    <Directory /var/www/medical-bazzar/public/uploads>
+    Alias /uploads /var/www/surgicalmartnepal/public/uploads
+    <Directory /var/www/surgicalmartnepal/public/uploads>
         Options -Indexes +FollowSymLinks
         AllowOverride None
         Require all granted
