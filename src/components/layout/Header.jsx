@@ -15,6 +15,7 @@ import * as Collapsible from "@radix-ui/react-collapsible";
 import * as Separator from "@radix-ui/react-separator";
 import * as Tooltip from "@radix-ui/react-tooltip";
 import * as Avatar from "@radix-ui/react-avatar";
+import LogoMain from "../../assets/logo-main.png";
 import { 
   MdMenu, 
   MdPerson,
@@ -224,7 +225,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center flex-shrink-0">
             <img 
-              src="/uploads/logo-main.png" 
+              src={LogoMain} 
               alt="Surgical Mart Nepal" 
               className="h-10 md:h-12 w-auto object-contain"
             />
