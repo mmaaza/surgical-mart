@@ -227,13 +227,8 @@ const Header = () => {
             <img 
               src={LogoMain} 
               alt="Surgical Mart Nepal" 
-              className="h-10 md:h-12 w-auto object-contain"
+              className="h-10 md:h-12 w-auto object-contain bg-white rounded-md p-1"
             />
-            {/* Desktop Text - Hidden on mobile */}
-            <div className="hidden md:flex flex-col ml-2">
-              <span className="text-white font-semibold text-lg leading-tight">Surgical Mart</span>
-              <span className="text-white/80 text-xs leading-tight">Nepal</span>
-            </div>
           </Link>
 
           {/* Search Bar - Visible on all devices */}
