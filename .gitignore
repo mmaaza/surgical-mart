@@ -20,6 +20,8 @@ backend/.env
 backend/.env.*
 !backend/.env.example
 
+backend/public/uploads
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
