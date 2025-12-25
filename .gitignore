@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+.env
+.env.*
+!.env.example
+*.local
+
+# Environment files
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# User uploads (runtime data – DO NOT TRACK)
+public/uploads/
+backend/public/uploads/
+
+# Local / backup folders (not part of repo)
+backend/surgicalmartnepal/
+backend/surgicalmartnepalcal-bazzar/
+
+# Binaries / installers (DO NOT TRACK)
+*.exe
+*.msi
+*.zip
+*.tar
+*.tar.gz

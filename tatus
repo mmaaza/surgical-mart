@@ -1,0 +1,17 @@
+[33m4804650[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Flash deals about section
+[33m44fbf68[m Flash deals about section
+[33mf5e8210[m Initial clean commit for SurgicalMartNepal
+[33ma8989f7[m Update Header component logo styling and adjust Tailwind color palette for improved branding
+[33mc3ae694[m Update copyright notice in Footer component to reflect new branding
+[33m05fa96e[m Update logo images for branding consistency
+[33m86e7b9c[m Update logo image source in Header component to use imported asset
+[33m5d44a9e[m Add new favicon and logo images to assets
+[33mae4b9a5[m Fix upload directory path for media files to ensure correct permissions and absolute paths
+[33m82a9e67[m Fix upload directory path for media files
+[33m099374f[m Update upload directory paths to reflect new branding for Surgical Mart Nepal
+[33medd09f1[m Add static file serving for uploads directory
+[33mbd928b1[m Refactor getCategoriesPublic method to include next parameter for improved error handling
+[33m23ace5a[m Update color palette in Tailwind configuration for improved contrast and accessibility
+[33m03363a2[m Update Apache configuration to reflect new branding for Surgical Mart Nepal
+[33mc85c665[m Update branding from Dental Kart Nepal to Surgical Mart Nepal across documentation and UI components
+[33mf009325[m initial commit
